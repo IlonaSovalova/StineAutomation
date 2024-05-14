@@ -1,0 +1,392 @@
+{
+  "Login": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345"
+  },
+  "AddRegion": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Administration",
+    "subMenuName": "Sales Regions",
+    "regionName": "autoRegion",
+    "state": "Idaho",
+    "county": "Bingham"
+  },
+  "AddConditioner": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Conditioners",
+    "regionName": "autoRegion",
+    "state": "Iowa",
+    "code": "c",
+    "name": "AutoConditioner",
+    "phone": "4561234564",
+    "email": "automation@stineseed.com",
+    "fax": "4564546456",
+    "streetAddress": "1510 Boyson Rd",
+    "addInfo": "automation test",
+    "city": "Hiawatha",
+    "county": "Adair",
+    "zip": "52233"
+  },
+
+  "AddSeedGrowers": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Seed Growers",
+    "regionName": "autoRegion",
+    "state": "Iowa",
+    "code": "c",
+    "name": "AutoSeedGrower",
+    "phone": "4561234564",
+    "email": "automation@stineseed.com",
+    "fax": "4564546456",
+    "streetAddress": "1510 Boyson Rd",
+    "addInfo": "automation test",
+    "city": "Hiawatha",
+    "county": "Adair",
+    "zip": "52233",
+    "product": "29EC22",
+    "conditioner": "4545AA",
+    "comment": "Seed Growers for Automation"
+  },
+
+  "AddUser": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Administration",
+    "subMenuName": "Users",
+    "name": "autouser",
+    "firstName": "autoFirst",
+    "lastName": "autoLast",
+    "state": "Iowa",
+    "streetAddress": "3420 Mason Rd",
+    "addInfo": "automation test",
+    "city": "Burlington",
+    "county": "Adams",
+    "zip": "52601",
+    "job": "Billing Support"
+  },
+  "AdminAccess": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345"
+  },
+  "RsaAccess": {
+    "userName": "rsa@stineseed.com",
+    "password": "Admin@12345"
+  },
+  "IsrAccess": {
+    "userName": "isr@stineseed.com",
+    "password": "Admin@12345"
+  },
+  "ControllerAccess": {
+    "userName": "controller@stineseed.com",
+    "password": "Admin@12345"
+  },
+  "AddProspect": {
+    "userName": "isr@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "CRM",
+    "subMenuName": "Prospects",
+    "businessName": "Aubusname",
+    "firstName": "firstName",
+    "middleName": "middleName",
+    "lastName": "lastName",
+    "email": "email@test.com",
+    "mobile": "1234567890",
+    "phone": "1567567890",
+    "cornAcres": "10",
+    "soybeanAcres": "12",
+    "streetAddress": "9797 Larchwood Dr",
+    "city": "West Des Moines",
+    "state": "Iowa",
+    "county": "Dallas",
+    "zip": "50266"
+
+  },
+  "VerifyIsrView": {
+    "userName": "ISR@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "CRM",
+    "subMenuName": "Prospects"
+  },
+  "VerifyRSAView": {
+    "userName": "RSA@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "CRM",
+    "subMenuName": "Prospects"
+  },
+  "VerifySalesDirectorView": {
+    "userName": "Salesdirector@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "CRM",
+    "subMenuName": "Prospects"
+  },
+  "VerifyRSAcumISRView": {
+    "userName": "kiarajain@yopmail.com",
+    "password": "Admin@12345",
+    "menuName": "CRM",
+    "subMenuName": "Prospects"
+  },
+  "EditUser": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Administration",
+    "subMenuName": "Users",
+    "name": "autouser",
+    "firstName": "autoFirst",
+    "lastName": "autoLast",
+    "state": "Iowa",
+    "streetAddress": "3420 Mason Rd",
+    "addInfo": "automation test",
+    "city": "Burlington",
+    "county": "Adams",
+    "zip": "52601",
+    "job": "Billing Support",
+    "updatedFirstName": "auFEdit",
+    "updatedLastName": "auLEdit"
+  },
+
+  "AddProduct": {
+    "userName": "production@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Products",
+    "ProductCode": "PRC",
+    "ProductDescription": "Created By Automation"
+  },
+
+  "AddLocation": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Administration",
+    "subMenuName": "Corn Shipment Locations",
+    "locationName": "CSL"
+  },
+
+  "AddInventory": {
+    "userName": "production@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Bulk Inventory",
+    "product": "0102EE033",
+    "GuaranteedBulkBushels": "500",
+    "ConditionerCode": "AMI",
+    "Grower": "AZZ"
+  },
+
+  "verifyUniqueBinCodeForCompanyYear": {
+    "userName": "production@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Bulk Inventory",
+    "product": "0102EE033",
+    "GuaranteedBulkBushels": "500",
+    "ConditionerCode": "AMI",
+    "Grower": "AZZ",
+    "companyYear": "2024"
+  },
+
+  "AddInventoryPastYearsValidation": {
+    "userName": "production@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Bulk Inventory",
+    "pastYear": "2022"
+  },
+
+  "AddInventoryFutureYearsValidation": {
+    "userName": "production@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Bulk Inventory",
+    "futureYear": "2024",
+    "product": "A",
+    "GuaranteedBulkBushels": "500",
+    "ConditionerCode": "A",
+    "Grower": "A"
+  },
+
+  "PlaceOrdersByProduct": {
+    "userName": "rsa@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Ordering",
+    "subMenuName": "Place Orders",
+    "accountName": "Auto East1",
+    "product": "0102EE033",
+    "conditioner": "AAA - Aaron",
+    "packageType": "Bag"
+  },
+
+  "PlaceOrdersByConditioner": {
+    "userName": "rsa@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Ordering",
+    "subMenuName": "Place Orders",
+    "accountName": "Auto East1",
+    "product": "0102EE033",
+    "conditioner": "AAA",
+    "packageType": "Bag"
+  },
+
+  "AddAccount": {
+    "userName": "rsa@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "CRM",
+    "subMenuName": "Accounts",
+    "state": "Iowa",
+    "phone": "4561234564",
+    "email": "automation@stineseed.com",
+    "fax": "4564546456",
+    "streetAddress": "1510 Boyson Rd",
+    "city": "Hiawatha",
+    "county": "Adair",
+    "zip": "52233",
+    "accountName": "autoAcc",
+    "accountType": "1:1",
+    "businessName": "autoBusi",
+    "name": "sdfsdf",
+    "totalIntendedCornAcres": "1500",
+    "totalStineCornAcres": "750",
+    "totalIntendedSoybeanAcres": "750",
+    "isr": "ISR"
+  },
+
+  "ViewAccount": {
+    "userName": "rsa@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "CRM",
+    "subMenuName": "Accounts"
+  },
+
+  "VerifyConditionerCodesInListScreen": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Seed Growers",
+    "regionName": "autoRegion",
+    "state": "Iowa",
+    "code": "c",
+    "name": "AutoSeedGrower",
+    "phone": "4561234564",
+    "email": "automation@stineseed.com",
+    "fax": "4564546456",
+    "streetAddress": "1510 Boyson Rd",
+    "addInfo": "automation test",
+    "city": "Hiawatha",
+    "county": "Adair",
+    "zip": "52233"
+  },
+
+  "validatePaginationInUsers": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Administration",
+    "subMenuName": "Users"
+  },
+
+  "AddBaggingApproval": {
+    "userName": "production@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Bagging Approvals",
+    "product": "29EC22",
+    "bincode": "8123",
+    "package": "Bag",
+    "comment": "Bagging Approval from Inventory for Automation"
+  },
+
+  "EditBaggingApproval": {
+    "userName": "production@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Bagging Approvals",
+    "germsType": "Stine 1",
+    "comment": "Bagging Approval from Edit Inventory for Automation"
+  },
+
+  "validatePaginationInConditioners": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Conditioners"
+  },
+  "validatePaginationInSeedGrowers": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Seed Growers"
+  },
+
+  "validatePaginationInInventory": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Seed Growers"
+  },
+
+  "AssignISR": {
+    "userName": "rsa@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "CRM",
+    "subMenuName": "Manage Prospects",
+    "businessName": "Aubusname",
+    "isr": "isr ",
+    "prospectName": " ISR ISR "
+  },
+
+  "verifyPackageTypeError": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Ordering",
+    "subMenuName": "Place Orders",
+    "product": "0102EE033",
+    "conditioner": "AAA - Aaron",
+    "packageType": "HardBox",
+    "errorMessage": "Must be a multiple of 50 for Corn"
+  },
+
+  "createOrderFromAccount": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "CRM",
+    "subMenuName": "Accounts"
+  },
+  "verifySameAsMailingCheckBoxStatus": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Seed Growers"
+  },
+  "verifyPlaceOrderScreen": {
+    "userName": "rsa@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Ordering",
+    "subMenuName": "Place Orders",
+    "accountName": "Auto East1"
+  },
+  "addAgreementsAndProducts": {
+    "userName": "admin@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "Production",
+    "subMenuName": "Conditioners",
+    "product": "29EC22",
+    "grower": "AZZ",
+    "PackageTypeOffered": "Mini Bulk"
+  },
+
+  "verifyFilterSearch": {
+    "userName": "rsa@stineseed.com",
+    "password": "Admin@12345",
+    "menuName": "CRM",
+    "subMenuName": "Manage Prospects",
+    "businessName": "Aubus",
+    "name": "",
+    "state": "Iowa",
+    "isr": "ISR IS",
+    "county": "Dallas"
+  }
+}
+

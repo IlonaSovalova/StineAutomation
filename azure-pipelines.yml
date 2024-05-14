@@ -1,0 +1,46 @@
+trigger:
+- test_refine
+
+pool:
+  name: Default
+  demands: vstest
+
+steps:
+- task: UseDotNet@2
+  displayName: 'Install .NET'
+  inputs:
+    packageType: 'sdk'
+    version: '6.0.x'
+- task: DotNetCoreCLI@2
+  displayName: New Manifest for tool
+  inputs:
+    command: custom
+    custom: 'new '
+    arguments: tool-manifest
+- task: DotNetCoreCLI@2
+  displayName: Install Playwright CLI
+  inputs:
+    command: custom
+    custom: 'tool '
+    arguments: install Microsoft.Playwright.CLI
+- task: DotNetCoreCLI@2
+  displayName: 'Build test project'
+  inputs:
+    command: 'build'
+    projects: 'StinePortalUIAutomation.csproj'
+- task: DotNetCoreCLI@2
+  displayName: Run Playwright Install
+  inputs:
+    command: custom
+    custom: 'tool '
+    arguments: run playwright install
+- task: VSTest@2
+  displayName: 'Stine portal UI automation tests'
+  inputs:
+    testAssemblyVer2: |
+     **\StinePortalUIAutomation.dll
+     !**\*TestAdapter.dll
+     !**\obj\**
+     !**/ref/**   
+    runSettingsFile: config.runsettings
+    overrideTestrunParameters: '-Env $(Env) -Browser $(Browser)'

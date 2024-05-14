@@ -1,0 +1,53 @@
+﻿{
+  "id": 0,
+  "timestamp": "",
+  "code": "9000ABC",
+  "description": "9000ABC",
+  "productCompanyYears": [
+    {
+      "id": 0,
+      "timestamp": "",
+      "product": {
+        "id": 0,
+        "timestamp": "",
+        "code": "",
+        "description": "",
+        "productCompanyYears": [],
+        "productPreferredNames": [],
+        "crop": null,
+        "cropId": -1
+      },
+      "acceptOrders": true,
+      "active": true,
+      "productPackageTypes": [
+        {
+          "id": 0,
+          "timestamp": "",
+          "packageTypeId": 3,
+          "productcompanyYearId": 0
+        },
+        {
+          "id": 0,
+          "timestamp": "",
+          "packageTypeId": 4,
+          "productcompanyYearId": 0
+        },
+        {
+          "id": 0,
+          "timestamp": "",
+          "packageTypeId": 1,
+          "productcompanyYearId": 0
+        }
+      ],
+      "companyYearId": 93
+    }
+  ],
+  "productPreferredNames": [],
+  "crop": {
+    "name": "Soybean",
+    "description": "Soybean",
+    "id": 2,
+    "timestamp": "AAAAAABG/jA="
+  },
+  "cropId": 2
+}
